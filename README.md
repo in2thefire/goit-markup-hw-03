@@ -1,3 +1,3 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-Second homework GOIT (HTML, CSS), made layout for second page (Портфолио), created styles.css file for both pages.
+Third homework GOIT (HTML, CSS), FlexBox
