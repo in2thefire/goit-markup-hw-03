@@ -26,13 +26,15 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="link logo" href="./index.html" lang="en"
+        <a class="link logo top-logo" href="./index.html" lang="en"
           >Web<span class="header-logo">Studio</span></a
         >
         <!-- Навигация -->
-        <nav>
+        <nav class="nav">
           <ul class="list nav-list">
-            <li class="nav-item"><a class="link nav-link" href="./index.html">Студия</a></li>
+            <li class="nav-item">
+              <a class="link nav-link" href="./index.html">Студия</a>
+            </li>
             <li class="nav-item">
               <a class="link nav-link current" href="./portfolio.html">Портфолио</a>
             </li>
@@ -54,7 +56,7 @@
     </header>
     <main>
       <!-- Секция Галереи -->
-      <section class="gallery">
+      <section class="gallery section">
         <div class="container">
           <h1 class="hidden-tittle">Галерея</h1>
           <ul class="list btn-list">
@@ -74,8 +76,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Технокряк</h2>
-                <p class="text gallery-sub-tittle">Веб-сайт</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Технокряк</h2>
+                  <p class="text gallery-sub-tittle">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -86,8 +90,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Постер New Orlean vs Golden Star</h2>
-                <p class="text gallery-sub-tittle">Дизайн</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Постер New Orlean vs Golden Star</h2>
+                  <p class="text gallery-sub-tittle">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -98,8 +104,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Ресторан Seafood</h2>
-                <p class="text gallery-sub-tittle">Приложение</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Ресторан Seafood</h2>
+                  <p class="text gallery-sub-tittle">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -110,8 +118,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Проект Prime</h2>
-                <p class="text gallery-sub-tittle">Маркетинг</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Проект Prime</h2>
+                  <p class="text gallery-sub-tittle">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -122,8 +132,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Проект Boxes</h2>
-                <p class="text gallery-sub-tittle">Приложение</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Проект Boxes</h2>
+                  <p class="text gallery-sub-tittle">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -134,8 +146,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Inspiration has no Borders</h2>
-                <p class="text gallery-sub-tittle">Веб-сайт</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Inspiration has no Borders</h2>
+                  <p class="text gallery-sub-tittle">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -146,8 +160,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Издание Limited Edition</h2>
-                <p class="text gallery-sub-tittle">Дизайн</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Издание Limited Edition</h2>
+                  <p class="text gallery-sub-tittle">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -158,8 +174,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Проект LAB</h2>
-                <p class="text gallery-sub-tittle">Маркетинг</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Проект LAB</h2>
+                  <p class="text gallery-sub-tittle">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="gallery-item">
@@ -170,8 +188,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-tittle">Growing Business</h2>
-                <p class="text gallery-sub-tittle">Приложение</p>
+                <div class="gallery-card">
+                  <h2 class="gallery-tittle">Growing Business</h2>
+                  <p class="text gallery-sub-tittle">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -180,14 +200,14 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a class="link logo" href="./index.html" lang="en"
           >Web<span class="footer-logo">Studio</span></a
         >
         <!-- Адрессные данные в футере -->
-        <address>
+        <address class="address">
           <ul class="list footer-contacts-list">
-            <li class="footer-address-item">
+            <li class="footer-contacts-item">
               <a
                 class="link footer-address-link"
                 href="https://goo.gl/maps/rYmRh6613uyAVde3A"
@@ -197,10 +217,10 @@
               >
             </li>
             <li class="footer-contacts-item">
-              <a class="link contacts-link" href="mailto:info@example.com">info@example.com</a>
+              <a class="link footer-contacts-link" href="info@example.com">info@example.com</a>
             </li>
             <li class="footer-contacts-item">
-              <a class="link contacts-link" href="tel:+380991111111">+38 099 111 11 11</a>
+              <a class="link footer-contacts-link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
         </address>
