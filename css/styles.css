@@ -178,15 +178,14 @@ img {
 /* #region Hero-section */
 .hero-section {
     background-color: var(--secondary-back-clr);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
 }
 
 .hero-tittle {
@@ -226,10 +225,6 @@ img {
 
 /* #endregion */
 /* #region Advantages-section */
-.advantages-section {
-    padding-bottom: 0;
-}
-
 .advantages-list {
     display: flex;
     align-items: center;
@@ -267,6 +262,10 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+}
+
+.img-section {
+    padding-top: 0;
 }
 
 .img-list {
@@ -320,6 +319,7 @@ img {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -382,7 +382,7 @@ img {
 
 .gallery-item {
     background: var(--main-back-clr);
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     box-sizing: border-box;
     min-width: 370px;
     margin-bottom: 30px;
@@ -394,6 +394,7 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-text-clr);
+    margin-bottom: 4px;
 }
 
 .gallery-sub-tittle {
@@ -404,6 +405,12 @@ img {
 
 .gallery-card {
     padding: 20px 24px;
+}
+
+.gallery-item:nth-of-type(7),
+.gallery-item:nth-of-type(8),
+.gallery-item:nth-of-type(9) {
+    margin-bottom: 0;
 }
 
 /* #endregion */
